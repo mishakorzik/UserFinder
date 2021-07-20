@@ -295,60 +295,6 @@ printf "\e[1;92m Found!\e[0m https://about.me/%s\n" $username
 printf "https://about.me/%s\n" $username >> $username.txt
 fi
 
-
-## Imgur
-
-printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Imgur: \e[0m"
-check1=$(curl -s -i "https://imgur.com/user/$username" -H "Accept-Language: en" -L | grep -o 'HTTP/2 404' ; echo $?)
-
-if [[ $check1 == *'0'* ]] ; then 
-printf "\e[1;93mNot Found!\e[0m\n"
-elif [[ $check1 == *'1'* ]]; then 
-
-printf "\e[1;92m Found!\e[0m https://imgur.com/user/%s\n" $username
-printf "https://imgur.com/user/%s\n" $username >> $username.txt
-fi
-
-## FlipBoard
-
-printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Flipboard: \e[0m"
-check1=$(curl -s -i "https://flipboard.com/@$username" -H "Accept-Language: en" -L | grep -o 'HTTP/2 404' ; echo $?)
-
-if [[ $check1 == *'0'* ]] ; then 
-printf "\e[1;93mNot Found!\e[0m\n"
-elif [[ $check1 == *'1'* ]]; then 
-
-printf "\e[1;92m Found!\e[0m https://flipboard.com/@%s\n" $username
-printf "https://flipboard.com/@%s\n" $username >> $username.txt
-fi
-
-## SlideShare
-
-printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] SlideShare: \e[0m"
-check1=$(curl -s -i "https://slideshare.net/$username" -H "Accept-Language: en" -L | grep -o 'HTTP/2 404' ; echo $?)
-
-if [[ $check1 == *'0'* ]] ; then 
-printf "\e[1;93mNot Found!\e[0m\n"
-elif [[ $check1 == *'1'* ]]; then 
-
-printf "\e[1;92m Found!\e[0m https://slideshare.net/%s\n" $username
-printf "https://slideshare.net/%s\n" $username >> $username.txt
-fi
-
-## Fotolog
-
-printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Fotolog: \e[0m"
-check1=$(curl -s -i "https://fotolog.com/$username" -H "Accept-Language: en" -L | grep -o 'HTTP/2 404' ; echo $?)
-
-if [[ $check1 == *'0'* ]] ; then 
-printf "\e[1;93mNot Found!\e[0m\n"
-elif [[ $check1 == *'1'* ]]; then 
-
-printf "\e[1;92m Found!\e[0m https://fotolog.com/%s\n" $username
-printf "https://fotolog.com/%s\n" $username >> $username.txt
-fi
-
-
 ## Spotify
 
 printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Spotify: \e[0m"
@@ -425,32 +371,6 @@ elif [[ $check1 == *'1'* ]]; then
 
 printf "\e[1;92m Found!\e[0m https://bitbucket.org/%s\n" $username
 printf "https://bitbucket.org/%s\n" $username >> $username.txt
-fi
-
-## DailyMotion
-
-printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] DailyMotion: \e[0m"
-check1=$(curl -s -i "https://www.dailymotion.com/$username" -H "Accept-Language: en" -L | grep -o '404 Not Found' ; echo $?)
-
-if [[ $check1 == *'0'* ]] ; then 
-printf "\e[1;93mNot Found!\e[0m\n"
-elif [[ $check1 == *'1'* ]]; then 
-
-printf "\e[1;92m Found!\e[0m https://www.dailymotion.com/%s\n" $username
-printf "https://www.dailymotion.com/%s\n" $username >> $username.txt
-fi
-
-## Etsy
-
-printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Etsy: \e[0m"
-check1=$(curl -s -i "https://www.etsy.com/shop/$username" -H "Accept-Language: en" -L | grep -o 'HTTP/2 404' ; echo $?)
-
-if [[ $check1 == *'0'* ]] ; then 
-printf "\e[1;93mNot Found!\e[0m\n"
-elif [[ $check1 == *'1'* ]]; then 
-
-printf "\e[1;92m Found!\e[0m https://www.etsy.com/shop/%s\n" $username
-printf "https://www.etsy.com/shop/%s\n" $username >> $username.txt
 fi
 
 ## CashMe
