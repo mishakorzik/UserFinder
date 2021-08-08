@@ -1,6 +1,9 @@
 # UserFinder
 **Find user in social and more informations!**
 
+> Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mishakorzik/UserFinder/blob/main/LICENSE).
+
+
 ### How to Install
 
 ```
