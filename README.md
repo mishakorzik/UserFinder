@@ -17,5 +17,6 @@ bash UserFinder.sh
 ```
 
 ### Screenshot
+#### here is a `screenshot` of the UserFinder tool. As you can see, everything works well for me, without `glitches` and `lags`.
 
-<img width="49.0%" src="IMG_20210808_230810.jpg"/> 
+<img width="99.0%" src="IMG_20210808_230810.jpg"/> 
