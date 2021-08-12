@@ -19,7 +19,7 @@ printf "\n"
 partial() {
 
 if [[ -e $username.txt ]]; then
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m %s.txt\n" $username
+printf "\e[1;92m[\e[0m\e[1;77m^^\e[0m\e[1;92m] Saved:\e[0m\e[1;77m %s.txt\n" $username
 fi
 
 
@@ -27,14 +27,14 @@ fi
 
 scanner() {
 
-read -p $'\e[1;92m[\e[0m\e[1;77m?\e[0m\e[1;92m] Input Username:\e[0m ' username
+read -p $'\e[1;92m[\e[0m\e[1;77m>\e[0m\e[1;92m] Input Username:\e[0m ' username
 
 if [[ -e $username.txt ]]; then
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Removing previous file:\e[0m\e[1;77m %s.txt" $username
+printf "\e[1;92m[\e[0m\e[1;77mX\e[0m\e[1;92m] Removing previous file:\e[0m\e[1;77m %s.txt" $username
 rm -rf $username.txt
 fi
 printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Checking username\e[0m\e[1;77m %s\e[0m\e[1;92m on: \e[0m\n" $username
+printf "\e[1;92m[\e[0m\e[1;77m>\e[0m\e[1;92m] Checking username\e[0m\e[1;77m %s\e[0m\e[1;92m on: \e[0m\n" $username
 
 ## INSTAGRAM
 
