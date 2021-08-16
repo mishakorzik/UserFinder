@@ -37,6 +37,12 @@ cd UserFinder
 bash UserFinder.sh
 ```
 
+## Find Me 
+[![Github](https://img.shields.io/badge/TELEGRAM-MishaKorzhik-orange?style=for-the-badge&logo=telegram)](https://t.me/MishaKorzhikTelegram)
+[![Github](https://img.shields.io/badge/GitHub-MishaKorzhik-yellow?style=for-the-badge&logo=github)](https://github.com/mishakorzik)
+[![Github](https://img.shields.io/badge/Twitter-MishaKorzhik-blue?style=for-the-badge&logo=twitter)](https://twitter.com/MishaKorzhik)
+
+
 ### Screenshot
 #### here is a `screenshot` of the UserFinder tool. As you can see, everything works well for me, without `glitches` and `lags`.
 
