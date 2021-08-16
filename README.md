@@ -47,3 +47,6 @@ bash UserFinder.sh
 #### here is a `screenshot` of the UserFinder tool. As you can see, everything works well for me, without `glitches` and `lags`.
 
 <img width="99.0%" src="IMG_20210808_230810.jpg"/> 
+
+## Supporters
+[![Stargazers repo roster for @mishakorzik/UserFinder](https://reporoster.com/stars/mishakorzik/UserFinder)](https://github.com/mishakorzik/UserFinder/stargazers)
