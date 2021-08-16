@@ -1,4 +1,22 @@
-# UserFinder
+<img width="99.9%" src="https://raw.githubusercontent.com/mishakorzik/UserFinder/main/IMG_20210816_214918.jpg"/>
+
+<p align="center">
+<a href="mailto:misakorzik528@gmail.com"><img title="Report bug" src="https://img.shields.io/badge/email-misakorzik528%40gmail.com-green?style=for-the-badge&logo=gmail"></a>
+<a href="https://github.com/mishakorzik/UserFinder"><img title="Version" src="https://img.shields.io/badge/Version-1.5.3-green?style=for-the-badge&logo="></a>
+<a href="https://github.com/mishakorzik/UserFinder/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-yellow?style=for-the-badge&logo=gnu"></a>
+<a href=""><img title="Python" src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python"></a>
+<a href="https://github.com/mishakorzik"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/mishakorzik"><img title="Autor" src="https://img.shields.io/badge/Author-mishakorzik-orange?style=for-the-badge&logo=github"></a>
+
+</p>
+
+<p align="center">
+• <a href="https://github.com/mishakorzik/UserFinder/blob/main/LICENSE">License</a> 
+• <a href="https://github.com/mishakorzik/UserFinder/issues">Issues</a> 
+• <a href="https://github.com/mishakorzik">Developer</a> 
+• <a href="https://github.com/mishakorzik/UserFinder/wiki">Wikipedia</a> •
+
+
 **Find user in social and more informations!**
 
 > Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mishakorzik/UserFinder/blob/main/LICENSE).
