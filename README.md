@@ -50,3 +50,4 @@ bash UserFinder.sh
 
 ## Supporters
 [![Stargazers repo roster for @mishakorzik/UserFinder](https://reporoster.com/stars/mishakorzik/UserFinder)](https://github.com/mishakorzik/UserFinder/stargazers)
+[![Forkers repo roster for @mishakorzik/UserFinder](https://reporoster.com/forks/mishakorzik/UserFinder)](https://github.com/mishakorzik/UserFinder/members)
