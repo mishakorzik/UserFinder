@@ -25,6 +25,7 @@ fi
 
 }
 
+
 scanner() {
 
 read -p $'\e[1;92m[\e[0m\e[1;77m>\e[0m\e[1;92m] Input Username:\e[0m ' username
@@ -35,6 +36,44 @@ rm -rf $username.txt
 fi
 printf "\n"
 printf "\e[1;92m[\e[0m\e[1;77m>\e[0m\e[1;92m] Checking username\e[0m\e[1;77m %s\e[0m\e[1;92m on: \e[0m\n" $username
+
+
+## TikTok
+
+check_tiktok=$(curl -s -H "Accept-Language: en" "https://www.tiktok.com/@$username" -L | grep -o 'Not Found'; echo $?)
+printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] TikTok: \e[0m"
+
+if [[ $check_tiktok == *'1'* ]]; then
+printf "\e[1;92m Found!\e[0m https://www.tiktok.com/@%s\n" $username
+printf "https://www.tiktok.com/@%s\n" $username > $username.txt
+elif [[ $check_tiktok == *'0'* ]]; then
+printf "\e[1;93mNot Found!\e[0m\n"
+fi
+
+## Likee
+
+check_likee=$(curl -s -H "Accept-Language: en" "https://www.likee.com/@$username" -L | grep -o 'Not Found'; echo $?)
+printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Likee: \e[0m"
+
+if [[ $check_likee == *'1'* ]]; then
+printf "\e[1;92m Found!\e[0m https://www.likee.com/@%s\n" $username
+printf "https://www.likee.com/@%s\n" $username > $username.txt
+elif [[ $check_likee == *'0'* ]]; then
+printf "\e[1;93mNot Found!\e[0m\n"
+fi
+
+## BuyMeACoffee
+
+printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] YouTube: \e[0m"
+check_buymeacoffee=$(curl -s "https://buymeacoff.ee/$username" -L -H "Accept-Language: en" | grep -o 'Not Found'; echo $?)
+
+
+if [[ $check_buymeacoffee == *'1'* ]]; then
+printf "\e[1;92m Found!\e[0m https://buymeacoff.ee/%s\n" $username
+printf "https://buymeacoff.ee/%s\n" $username >> $username.txt
+elif [[ $check_buymeacoffee == *'0'* ]]; then
+printf "\e[1;93mNot Found!\e[0m\n"
+fi
 
 ## INSTAGRAM
 
@@ -71,6 +110,20 @@ if [[ $check_twitter == *'1'* ]]; then
 printf "\e[1;92m Found!\e[0m https://www.twitter.com/%s\n" $username
 printf "https://www.twitter.com/%s\n" $username >> $username.txt
 elif [[ $check_twitter == *'0'* ]]; then
+printf "\e[1;93mNot Found!\e[0m\n"
+fi
+
+
+## SNAPCHAT
+
+printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Snapchat: \e[0m"
+check_snapchat=$(curl -s "https://snapchat.com/add/$username" -L -H "Accept-Language: en" | grep -o 'Not Found'; echo $?)
+
+
+if [[ $check_snapchat == *'1'* ]]; then
+printf "\e[1;92m Found!\e[0m https://snapchat.com/add/%s\n" $username
+printf "https://snapchat.com/add/%s\n" $username >> $username.txt
+elif [[ $check_snapchat == *'0'* ]]; then
 printf "\e[1;93mNot Found!\e[0m\n"
 fi
 
