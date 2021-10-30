@@ -1,7 +1,7 @@
 <img width="99.9%" src="https://raw.githubusercontent.com/mishakorzik/UserFinder/main/IMG_20210816_222842.jpg"/>
 
 <p align="center">
-<a href="mailto:misakorzik528@gmail.com"><img title="Report bug" src="https://img.shields.io/badge/email-miguardzecurity%40gmail.com-green?style=for-the-badge&logo=gmail"></a>
+<a href="mailto:miguardzecurity@gmail.com"><img title="Report bug" src="https://img.shields.io/badge/email-miguardzecurity%40gmail.com-green?style=for-the-badge&logo=gmail"></a>
 <a href="https://github.com/mishakorzik/UserFinder"><img title="Version" src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge&logo="></a>
 <a href="https://github.com/mishakorzik/UserFinder/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-yellow?style=for-the-badge&logo=gnu"></a>
 <a href=""><img title="Python" src="https://img.shields.io/badge/Used-Shell-yellow?style=for-the-badge&logo=shell"></a>
