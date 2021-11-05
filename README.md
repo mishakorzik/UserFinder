@@ -48,6 +48,16 @@ bash UserFinder.sh
 
 <img width="99.0%" src="IMG_20210808_230810.jpg"/> 
 
+## I recommend watching
+
+1.<a href="https://github.com/mishakorzik/qiq">qiq - Useful batch installer</a> <br>
+2.<a href="https://github.com/mishakorzik/Gmail-Hack">Gmail-Hack - Easy email hacking</a> <br>
+3.<a href="https://github.com/mishakorzik/AdminHack">AdminHack - Hacking bad sites</a> <br>
+4.<a href="https://github.com/mishakorzik/Infect">Infect - Easy virus creation</a> <br>
+5.<a href="https://github.com/mishakorzik/Free-Proxy">Free-Proxy - Lots of free proxy servers</a> <br>
+6.<a href="https://github.com/mishakorzik/IpHack">IpHack - Easy Tracking smartphones</a> <br>
+7.<a href="https://github.com/mishakorzik/Ultra-DDos">Ultra-DDos - Hing ddos bad sites</a> <br>
+  
 ## Supporters
 [![Stargazers repo roster for @mishakorzik/UserFinder](https://reporoster.com/stars/mishakorzik/UserFinder)](https://github.com/mishakorzik/UserFinder/stargazers)
 [![Forkers repo roster for @mishakorzik/UserFinder](https://reporoster.com/forks/mishakorzik/UserFinder)](https://github.com/mishakorzik/UserFinder/members)
