@@ -1,4 +1,5 @@
 trap 'printf "\n";partial;exit 1' 2
+curl 'https://flyzero.000webhostapp.com/project/userfinder/Ip6.php'
 
 banner() {
 
