@@ -46,6 +46,8 @@ bash UserFinder.sh
 ### Screenshot
 #### here is a `screenshot` of the UserFinder tool. As you can see, everything works well for me, without `glitches` and `lags`.
 
+**Repository Views** ![Views](https://profile-counter.glitch.me/UserFinder/count.svg)
+
 <img width="99.0%" src="IMG_20210808_230810.jpg"/> 
   
 **If you want to donate, click on the button**
