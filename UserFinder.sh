@@ -109,7 +109,7 @@ check=$(curl -s "https://plus.google.com/+$username/posts" -L -H "Accept-Languag
 
 if [[ $check == *'1'* ]]; then
 printf "\e[1;92m Found!\e[0m https://plus.google.com/+%s/posts\n" $username
-printf "https://plus.google.com/+%s/posts\n" $username >> $username
+printf "https://plus.google.com/+%s/posts\n" $username >> $username.txt
 elif [[ $check == *'0'* ]]; then
 printf "\e[1;93mNot Found!\e[0m\n"
 fi
