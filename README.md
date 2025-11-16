@@ -40,7 +40,6 @@ bash UserFinder.sh
 ```
 
 ## Find Me 
-[![Github](https://img.shields.io/badge/TELEGRAM-MishaKorzhik-orange?style=for-the-badge&logo=telegram)](https://t.me/ubp2q)
 [![Github](https://img.shields.io/badge/GitHub-MishaKorzhik-yellow?style=for-the-badge&logo=github)](https://github.com/mishakorzik)
 [![Github](https://img.shields.io/badge/Twitter-MishaKorzhik-blue?style=for-the-badge&logo=twitter)](https://twitter.com/MishaKorzhik)
 [![Github](https://img.shields.io/badge/Discord-He1Zen-blue?style=for-the-badge&logo=discord)](https://discord.gg/xwpMuMYW57)
